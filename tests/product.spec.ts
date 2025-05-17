@@ -23,7 +23,7 @@ test.describe('Product Test', () => {
 
     test('Verifica se as descrições dos produtos estão corretas', async ({ page }) => {
         test.fail();
-        
+
         const loginPage = new LoginPage(page);
         const productPage = new ProductPage(page);
 
@@ -47,5 +47,21 @@ test.describe('Product Test', () => {
         for (let i = 0; i < expectedDescriptions.length; i++) {
             expect(descriptions[i]).toContain(expectedDescriptions[i])
         }
-    })
-})
+    });
+
+    test('Verifica se os preços dos produtos estão visiveis e no formato correto', async ({ page }) => {
+        const loginPage = new LoginPage(page);
+        const productPage = new ProductPage(page);
+
+        await loginPage.navigate();
+        await loginPage.login('standard_user', 'secret_sauce');
+
+        // Obtém a lista de preços de todos os produtos exibidos
+        const prices = await productPage.getProductPrices();
+
+        // Verifica se cada preço está no formato correto (ex: $29.99)
+        for (const price of prices) {
+            expect(price).toMatch(/^\$\d+\.\d{2}$/);
+        }
+    });
+});
