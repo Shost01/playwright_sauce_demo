@@ -19,7 +19,7 @@ export class CartPage {
     }
 
     // Verifica se um item específico (pelo nome) está presente no carrinho
-    async isItemIncart(itemName: string): Promise<boolean> {
+    async isItemInCart(itemName: string): Promise<boolean> {
         return await this.page.locator('.inventory_item_name', { hasText: itemName }).isVisible();
     }
 

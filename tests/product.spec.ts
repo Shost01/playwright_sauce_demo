@@ -4,7 +4,7 @@ import { ProductPage } from '../pages/ProductPage';
 
 // Suite de testes relacionados à página de produtos
 test.describe('Product Test', () => {
-    test('all product names begin with "Sauce Labs"', async ({ page }) => {
+    test('Verifica se todos os nomes de produtos começam com "Sauce Labs"', async ({ page }) => {
         test.fail();
 
         const loginPage = new LoginPage(page);
@@ -21,7 +21,7 @@ test.describe('Product Test', () => {
         }
     });
 
-    test('Check if product descriptions are correct', async ({ page }) => {
+    test('Verifica se as descrições dos produtos estão corretas', async ({ page }) => {
         test.fail();
         
         const loginPage = new LoginPage(page);
