@@ -30,8 +30,7 @@ Este projeto contém uma suíte de testes automatizados para a aplicação web [
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+https://github.com/Shost01/playwright_sauce_demo.git
 ```
 2. Instale as dependências com `npm install`
 3. Instale o playwright `npx playwright install`
