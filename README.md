@@ -6,8 +6,8 @@ Este projeto contém uma suíte de testes automatizados para a aplicação web [
 ## Tecnologias Utilizadas
 - Node.js
 - Playwright
-- TypeScript (se aplicável)
-- Jest / Playwright Test Runner
+- TypeScript
+- Playwright Test Runner
 
 ## Estrutura do Projeto
 - `pages/` - Contém os Page Objects que encapsulam as funcionalidades das páginas.
