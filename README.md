@@ -29,7 +29,8 @@ Este projeto contém uma suíte de testes automatizados para a aplicação web [
 ## Como Rodar os Testes
 1. Clone o repositório
 2. Instale as dependências com `npm install`
-3. Execute os testes com `npx playwright test`
+3. Instale o playwright `npx playwright install`
+4. Execute os testes com `npx playwright test`
 
 ## Considerações Finais
 O projeto segue boas práticas como Page Object Model, testes independentes e código limpo para facilitar manutenção e escalabilidade.
