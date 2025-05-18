@@ -38,4 +38,4 @@ cd seu-repo
 4. Execute os testes com `npx playwright test`
 
 ## Considerações Finais
-O projeto segue boas práticas como Page Object Model, testes independentes e código limpo para facilitar manutenção e escalabilidade.
+O projeto foi desenvolvido utilizando o padrão Page Object Model, mantendo os testes organizados, reutilizáveis e de fácil manutenção. Todos os testes são independentes e automatizados de forma robusta, garantindo cobertura essencial da aplicação.
