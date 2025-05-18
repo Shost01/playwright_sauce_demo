@@ -1,4 +1,4 @@
-# Projeto de Automação de Testes - Sauce Demo com Playwright
+[# Projeto de Automação de Testes - Sauce Demo com Playwright
 
 ## 📝 Descrição
 Este projeto contém uma suíte de testes automatizados para a aplicação web [Sauce Demo](https://www.saucedemo.com), utilizando o framework Playwright. O objetivo é validar funcionalidades críticas da aplicação como login, manipulação de carrinho e exibição correta de produtos.
@@ -31,6 +31,7 @@ Este projeto contém uma suíte de testes automatizados para a aplicação web [
 1. **Clone o repositório**
 ```bash
 https://github.com/Shost01/playwright_sauce_demo.git
+cd playwright_sauce_demo
 ```
 2. Instale as dependências com `npm install`
 3. Instale o playwright `npx playwright install`
@@ -38,3 +39,4 @@ https://github.com/Shost01/playwright_sauce_demo.git
 
 ## Considerações Finais
 O projeto foi desenvolvido utilizando o padrão Page Object Model, mantendo os testes organizados, reutilizáveis e de fácil manutenção. Todos os testes são independentes e automatizados de forma robusta, garantindo cobertura essencial da aplicação.
+](https://github.com/Shost01/playwright_sauce_demo.git)
