@@ -19,12 +19,11 @@ Este projeto contém uma suíte de testes automatizados para a aplicação web [
 3. Login com usuário bloqueado  
 4. Adicionar item ao carrinho  
 5. Remover item do carrinho  
-6. Verificar item no carrinho após adicionar  
-7. Verificar redirecionamento do botão "Checkout"  
-8. Adicionar e remover itens repetidamente  
-9. Validação dos títulos dos produtos  
-10. Validação das descrições dos produtos  
-11. Validação do formato dos preços  
+6. Verificar redirecionamento do botão "Checkout"  
+7. Adicionar e remover itens repetidamente  
+8. Validação dos títulos dos produtos  
+9. Validação das descrições dos produtos  
+10. Validação do formato dos preços  
 
 ## 🚀 Como Rodar os Testes
 
