@@ -87,7 +87,6 @@ test.describe('Cart Testx', () => {
             await inventory.removeProductFromCart('sauce-labs-backpack');
         }
 
-        // Adiciona e remove o mesmo item várias vezes
         await inventory.goToCart();
 
         // Verifica que o carrinho está vazio
