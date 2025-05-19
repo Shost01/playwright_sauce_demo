@@ -4,7 +4,7 @@ import { InventoryPage } from '../pages/InventoryPage';
 import { CartPage } from '../pages/CartPage';
 
 // Conjunto de testes relacionados ao carrinho de compras
-test.describe('Cart Testx', () => {
+test.describe('Cart Test', () => {
     test('Adicionar item ao carrinho e verificar no carrinho', async ({ page }) => {
 
         // Instancia as páginas
